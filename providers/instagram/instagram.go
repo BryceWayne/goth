@@ -146,13 +146,9 @@ func newConfig(p *Provider, scopes []string) *oauth2.Config {
 			AuthURL:  authURL,
 			TokenURL: tokenURL,
 		},
-		Scopes: []string{
-			"basic",
-		},
+		Scopes: []string{},
 	}
-	defaultScopes := map[string]struct{}{
-		"basic": {},
-	}
+	defaultScopes := map[string]struct{}{}
 
 	for _, scope := range scopes {
 		if _, exists := defaultScopes[scope]; !exists {
