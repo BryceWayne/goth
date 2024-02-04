@@ -3,8 +3,8 @@ package battlenet_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/battlenet"
+	"github.com/BryceWayne/goth"
+	"github.com/BryceWayne/goth/providers/battlenet"
 	"github.com/stretchr/testify/assert"
 )
 

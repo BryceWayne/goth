@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/markbates/goth"
+	"github.com/BryceWayne/goth"
 )
 
 // Session stores data during the auth process with SeaTalk.

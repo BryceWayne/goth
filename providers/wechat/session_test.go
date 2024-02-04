@@ -3,8 +3,8 @@ package wechat_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/wechat"
+	"github.com/BryceWayne/goth"
+	"github.com/BryceWayne/goth/providers/wechat"
 	"github.com/stretchr/testify/assert"
 )
 

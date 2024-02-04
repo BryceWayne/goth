@@ -3,8 +3,8 @@ package tiktok_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/tiktok"
+	"github.com/BryceWayne/goth"
+	"github.com/BryceWayne/goth/providers/tiktok"
 	"github.com/stretchr/testify/assert"
 )
 
